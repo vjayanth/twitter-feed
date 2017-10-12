@@ -1,0 +1,10 @@
+  <div class="container">
+
+      <form class="form-signin"  >
+        <h2 class="form-signin-heading">Please sign in using Twitter Credentials</h2>
+        <button class="btn  btn-primary btn-block" (click)="login()">Sign in</button>
+      </form>
+
+      <span *ngIf="errorMessage != ''">{{errorMessage}}</span>
+
+    </div> <!-- /container -->
